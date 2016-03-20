@@ -66,7 +66,7 @@
 			</table>
 			<div class="menu">
 				<button id="new-game">New game</button>
-				<span id="playing">Playing: <i id="player" class="red"></i></span>
+				<span id="playing">Playing: <i id="player"></i></span>
 			</div>
 		</div>
 		<script src="jquery.min.js"></script>

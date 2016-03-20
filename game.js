@@ -1,6 +1,6 @@
 $(function () {
 	var a, b, x, y, current, done;
-	var last   = 'red';
+	var last;
 	var p      = 'red';
 	var player = $('#player');
 
@@ -51,7 +51,7 @@ $(function () {
 	// start
 	var start = function () {
 
-		p = last = (last == 'red') ? 'yellow' : 'red';
+		p = last = (!last || last == 'yellow') ? 'red' : 'yellow';
 		player[0]['className'] = p;
 
 		$('td').removeClass();
