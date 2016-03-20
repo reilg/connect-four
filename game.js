@@ -1,8 +1,7 @@
 $(function () {
-	var a, b, x, y, current, done;
-	var last;
-	var p      = 'red';
+	var a, b, x, y, current, done, last;
 	var player = $('#player');
+	var p      = 'red';
 
 	var isMine = function (x, y) {
 		return cell(x, y)[0]['className'] === p;

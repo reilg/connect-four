@@ -8,6 +8,7 @@ table {
 
 #game {
 	width: 500px;
+	margin: 50px auto;
 }
 
 table {
@@ -52,7 +53,7 @@ td:hover {
 #player {
 	width: 10px;
 	vertical-align: middle;
-	border-radius: 10px;
+	border-radius: 5px;
     padding: 10px;
     display: inline-block
 }
