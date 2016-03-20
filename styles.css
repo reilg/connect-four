@@ -1,0 +1,58 @@
+#messages {
+    display: none;
+}
+
+table {
+    width: 100%;
+}
+
+#game {
+	width: 500px;
+}
+
+table {
+    border: 1px solid #bbc;
+    padding: 5px;
+    border-spacing: 4px;
+    border-radius: 8px;
+	margin: 0 auto;
+	background: #4c4cff;
+}
+
+td {
+    border: 0px solid #ddd;
+    border-radius: 100px;
+    box-shadow: inset 7px 7px 10px 0px rgba(50, 50, 50, 0.4);
+    opacity: 1;
+    height: 60px;
+    background: #fff
+}
+
+td:hover {
+	cursor: pointer;
+	border-color: #bbc;
+}
+
+.menu {
+	margin: 20px auto;
+}
+
+.yellow {
+    background: #ff0;
+}
+
+.red {
+    background: #f00;
+}
+
+#playing {
+	float: right;
+}
+
+#player {
+	width: 10px;
+	vertical-align: middle;
+	border-radius: 10px;
+    padding: 10px;
+    display: inline-block
+}
